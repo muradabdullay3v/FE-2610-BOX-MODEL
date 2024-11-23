@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: max-content;
+  height: max-content;
+  margin: 25px auto;
+  padding: 10px;
+  box-shadow: 1px 1px 76px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 76px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 76px -3px rgba(0, 0, 0, 0.75);
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card img {
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 7px;
+}
+
+.card .card_title {
+  margin-top: 15px;
+  color: red;
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.card button {
+  background-color: red;
+  padding: 16px 25px;
+  color: #fff;
+  font-family: inherit;
+  transition: background-color 0.5s, color 10s;
+  font-size: 25px;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card_image {
+  overflow: hidden;
+}
+
+.card button:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: lime;
+}
